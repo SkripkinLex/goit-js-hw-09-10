@@ -1,6 +1,5 @@
-import SimpleLightbox from `simplelightbox`;
-import { preview } from "vite";
-import 'simplelightbox/dist/simple-lightbox.esm';
+import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const galleryItems = [
 {
@@ -73,13 +72,13 @@ const gallery =
 
 const createGalleryItemMarkup =
     ({ preview, original, description })
-        => `
-        <li class = "gallery-item">
-        <a class = "gallery-link" href = "${original}">
+        =>`
+        <li class="gallery-item">
+        <a class="gallery-link"href="${original}">
         <img
-        class = "gallery-image"
-        src = "${preview}"
-        alt = "${description}"
+        class="gallery-image"
+        src="${preview}"
+        alt="${description}"
         />
         </a>
         </li>    
