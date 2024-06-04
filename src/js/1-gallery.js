@@ -70,9 +70,7 @@ const galleryItems = [
 const gallery =
     document.getElementById('gallery');
 
-const createGalleryItemMarkup =
-    ({ preview, original, description })
-        =>`
+const createGalleryItemMarkup = ({ preview, original, description }) =>`
         <li class="gallery-item">
         <a class="gallery-link"href="${original}">
         <img
