@@ -1,6 +1,6 @@
 import SimpleLightbox from `simplelightbox`;
 import { preview } from "vite";
-import `simplelightbox/dist/simple-lightbox.min.css`;
+import 'simplelightbox/dist/simple-lightbox.esm';
 
 const galleryItems = [
 {
